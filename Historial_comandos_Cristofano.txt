@@ -259,3 +259,20 @@ mkdir -p material/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
 touch material/uni1/.gitkeep material/uni2/.gitkeep material/uni3/.gitkeep
 touch materia2/uni1/.gitkeep materia2/uni2/.gitkeep materia2/uni3/.gitkeep
 history -a
+cp ~/.bash_history ./Historial_comandos_Cristofano.txt
+ls -l
+stw
+ptw
+git add .
+git commit -m "final: estrucutra completa de unidades e historial"
+git push
+rm historial_comandos_cristofano.txt
+find . -name ".gitkeep" -delete
+find . -name "punto7.txt" -delete
+echo "# TP1_AySO_Cristofano_Dario" > README.md
+echo "TP1 arquitectura y SO comisión 114 2026" >> README.md
+echo "Alumno: Dario Francisco Cristofano Rezano" >> README.md
+echo "División: 114" >> README.md
+echo "Turno: Mañana" >> README.md
+history -a~
+history -a

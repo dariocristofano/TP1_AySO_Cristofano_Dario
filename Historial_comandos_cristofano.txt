@@ -194,3 +194,94 @@ git add .
 git commit -m "Final: README con datos personales e historial actualizado"
 git push
 history -a
+cp ~/.bash_history ./historial_comandos_cristofano.txt
+echo "alumno: dario francisco cristofano rezano" >> README.md
+echo "division: 114" >> README.md
+echo "turno: mañana" >> README.md
+touch material/uni1/punto7.txt
+touch materia2/uni1/punto7.txt
+git add .
+git commit -m "ADD: historial de comandos de cristofano"
+git push
+mkdir -p material/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+echo "# TP1_AySO_Cristofano_Dario" > README.md
+echo "TP1 arquitectura y SO comisión 114 2026" >> README.md
+echo "Alumno: Dario Francisco Cristofano Rezano" >> README.md
+echo "División: 114" >> README.md
+echo "Turno: Mañana" >> README.md
+echo "# TP1_AySO_Cristofano_Dario" > README.md
+echo "TP1 arquitectura y SO comisión 114 2026" >> README.md
+echo "Alumno: Dario Francisco Cristofano Rezano" >> README.md
+echo "División: 114" >> README.md
+echo "Turno: Mañana" >> README.md
+mkdir -p material/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+touch material/uni1/punto7.txt material/uni2/punto7.txt material/uni3/punto7.txt
+touch materia2/uni1/punto7.txt materia2/uni2/punto7.txt materia2/uni3/punto7.txt
+rm -f historial_comandos_cristofano.txt
+history -a
+cp ~/.bash_history ./Historial_comandos_Cristofano.txt
+git add .
+git commit -m "FIX: README limpio, estructura completa e Historial en mayusculas"
+:~$ git push
+rm -f README.md Historial_comandos_Cristofano.txt
+rm -rf material materia2
+echo "# TP1_AySO_Cristofano_Dario" > README.md
+echo "TP1 arquitectura y SO comisión 114 2026" >> README.md
+echo "Alumno: Dario Francisco Cristofano Rezano" >> README.md
+echo "División: 114" >> README.md
+echo "Turno: Mañana" >> README.md
+mkdir -p material/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+touch material/uni1/punto7.txt material/uni2/punto7.txt material/uni3/punto7.txt
+touch materia2/uni1/punto7.txt materia2/uni2/punto7.txt materia2/uni3/punto7.txt
+rm -f historial_comandos_cristofano.txt
+history -a
+cp ~/.bash_history ./Historial_comandos_Cristofano.txt
+git add .
+git commit -m "FIX: README limpio, estructura completa e Historial en mayusculas"
+git push
+cd ~repogit/TP1_AySO_cristofano_dario
+cd ~repogit/TP1_AySO_Cristofano_Dario
+cd ~/repogit/TP1_AySO_Cristofano_Dario
+rm -f ~/README.md ~/Historial_comandos_Cristofano.txt
+rm -rf ~/material ~/materia2
+rm -f ~/README.md ~/Historial_comandos_Cristofano.txt
+rm -rf ~/material ~/materia2
+echo "# TP1_AySO_Cristofano_Dario" > README.md
+echo "TP1 arquitectura y SO comisión 114 2026" >> README.md
+echo "Alumno: Dario Francisco Cristofano Rezano" >> README.md
+echo "División: 114" >> README.md
+echo "Turno: Mañana" >> README.md
+mkdir -p material/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+cd ~/repogit/TP1_AySO_Cristofano_Dario
+rm -f ~/README.md ~/Historial_comandos_Cristofano.txt
+rm -rf ~/material ~/materia2
+mkdir -p material/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+touch material/uni1/.gitkeep material/uni2/.gitkeep material/uni3/.gitkeep
+touch materia2/uni1/.gitkeep materia2/uni2/.gitkeep materia2/uni3/.gitkeep
+history -a
+cp ~/.bash_history ./Historial_comandos_Cristofano.txt
+ls -l
+stw
+ptw
+git add .
+git commit -m "final: estrucutra completa de unidades e historial"
+git push
+rm historial_comandos_cristofano.txt
+find . -name ".gitkeep" -delete
+find . -name "punto7.txt" -delete
+echo "# TP1_AySO_Cristofano_Dario" > README.md
+echo "TP1 arquitectura y SO comisión 114 2026" >> README.md
+echo "Alumno: Dario Francisco Cristofano Rezano" >> README.md
+echo "División: 114" >> README.md
+echo "Turno: Mañana" >> README.md
+history -a~
+history -a
+cp ~/.bash_history ./Historial_comandos_Cristofano.txt
+git add .
+git commit -m "limpieza de archivos duplicados y estructura final"
+git push
+
+cd ~/repogit/TP1_AySO_Cristofano_Dario
+touch material/uni1/.gitkeep material/uni2/.gitkeep material/uni3/.gitkeep
+touch materia2/uni1/.gitkeep materia2/uni2/.gitkeep materia2/uni3/.gitkeep
+history -a
