@@ -172,3 +172,20 @@ git push
 grep -m 1 "model name" /proc/cpuinfo >> datos_usuario.txt
 history -a
 cp ~/bash_history ./historial_comandos_cristofano.txt
+cp ~/.bash_history ./historial_comandos_cristofano.txt
+ls -l historial_comandos_cristofano.txt
+cat historial_comandos_cristofano.txt
+mkdir -p material/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+ls -f
+git add .
+git commit -m "final: estructura de carpetas y archivos completa"
+git push
+cat <<EOF >> README.md
+Alumno: Dario Francisco Cristofano Rezano
+Division : 114
+Turno : mañana
+EOF
+
+git add material materia2
+echo -e "\nAlumno: Dario Cristofano\nDivisión: 114\nTurno: [Tu Turno]" >> README.md
+history -a
