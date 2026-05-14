@@ -189,3 +189,8 @@ EOF
 git add material materia2
 echo -e "\nAlumno: Dario Cristofano\nDivisión: 114\nTurno: [Tu Turno]" >> README.md
 history -a
+cp ~/.bash_history ./historial_comandos_cristofano.txt
+git add .
+git commit -m "Final: README con datos personales e historial actualizado"
+git push
+history -a

@@ -7,3 +7,6 @@ Turno : mañana
 Alumno: Dario Cristofano
 División: 114
 Turno: [Tu Turno]
+alumno: dario francisco cristofano rezano
+division: 114
+turno: mañana
