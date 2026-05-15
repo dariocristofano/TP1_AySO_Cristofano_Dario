@@ -276,3 +276,71 @@ echo "División: 114" >> README.md
 echo "Turno: Mañana" >> README.md
 history -a~
 history -a
+cp ~/.bash_history ./Historial_comandos_Cristofano.txt
+git add .
+git commit -m "limpieza de archivos duplicados y estructura final"
+git push
+
+cd ~/repogit/TP1_AySO_Cristofano_Dario
+touch material/uni1/.gitkeep material/uni2/.gitkeep material/uni3/.gitkeep
+touch materia2/uni1/.gitkeep materia2/uni2/.gitkeep materia2/uni3/.gitkeep
+history -a
+cp ~/.bash_history ./Historial_comandos_cristofano.txt
+git add
+git add .
+git commit -m "estructura final y limpieza de archivos"
+git push
+cd repogit
+ls -l
+cd TP1_AySO_cristofano_dario
+cd TP1_AySO_Cristofano_Dario
+tree ~/repogit/TP1_AySO_Cristofano_Dario -I ".git*"
+pwd
+tree ~/repogit/TP1_AySO_Cristofano_Dario -I ".git*"
+whoami
+ls -l
+cd repogit
+ls -l
+cd TP1_AySO_cristofano_dario
+cd TP1_AySO_Cristofano_Dario
+ls -l
+rm -rf materia1/ materia2/
+ls -l
+rm -f Historial_comandos_cristofano.txt
+cd home
+cd ~
+ls -l
+cd ~
+cd TP1_AySO_Cristofano_Dario
+rm -rf materia1/ materia2/
+cd TP1_AySO_cristofano_dario
+ls -l
+cd repogiy
+cd repogit
+ls -l
+cd TP1_AySO_Cristofano_Dario
+ls -l
+rm materia1
+rm materia1 rm -rf materia1
+ls -l
+rm -rf materia1
+ls -l
+rm -rf materia1
+ls -l
+rm -rf material
+ls -l
+cd ~
+tree
+mkdir -p material/{uni1,uni2,uni3} materia2/{uni1,uni2,uni3}
+tree
+ls -l
+cd repogit
+ls -l
+cd TP1_AySO_Cristofano_Dario
+ls-l
+ls -l
+cat README.md
+cat datos_url.txt
+cat datos_usuario.txt
+cd ~/repogit/TP1_AySO_Cristofano_Dario
+history -a
